@@ -1,0 +1,126 @@
+body{
+    background-color: white;
+}
+div.cosas{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 4em;
+}
+div.nom{
+    float: left;
+}
+div.num{
+    float: right;
+}
+img{
+    width: 30px;
+    height: 30px;
+}
+div.vacio{
+    background-color: #AEB0A9;
+    padding-bottom: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2em;
+}
+div.form{
+    width: auto;
+    height: auto;
+    padding-left: 3em;
+    background-color: white;
+    padding-bottom: 2em;
+    padding-top: 2em;
+    padding-right: 3em;
+    border-radius: 10px;
+    margin-bottom: 2em;
+}
+button{
+    background-color: tomato;
+    border-radius: 5px;
+}
+p.bot{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#form2{
+    background-color: khaki;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+div.form2{
+    width: auto;
+    height: auto;
+    padding-left: 3em;
+    background-color: white;
+    padding-bottom: 2em;
+    padding-top: 2em;
+    padding-right: 3em;
+    border-radius: 10px;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+#form2 input{
+    height: 3em;
+}
+#form2 select{
+    height: 3em;
+    width: 18em;
+}
+#form3{
+    background-color: rgb(90, 209, 164);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+div.form3{
+    width: auto;
+    height: auto;
+    padding-left: 3em;
+    background-color: white;
+    padding-bottom: 2em;
+    padding-top: 2em;
+    padding-right: 3em;
+    border-radius: 10px;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+#form3 input{
+    height: 3em;
+    width: 100%;
+}
+#form3 select{
+    height: 3em;
+    width: 100%;
+}
+h2{
+    text-align: center;
+}
+pre{
+    text-align: center;
+}
+#form3 input.yo{
+    height: 1em;
+    width: 1em;
+}
+#form3 p.bot{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#form3 button{
+    width: 10em;
+    height: 3em;
+    background-color: teal;
+    border-radius: 5px;
+}
+.password-icon {
+    float: right;
+    position: relative;
+    margin: -25px 10px 0 0;
+    cursor: pointer;
+}

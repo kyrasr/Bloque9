@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario 1</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div>
+        <div class="cosas">
+        <div class="nom"><h1 >ANG <img src="ang.jpg"></h1></div>
+        <div class="num"><h2 ><img src="log.png"> 900 250 555  | 901 900 900</h2></div>
+        </div>
+        <br>
+        <div class="vacio">
+
+            <div class="form">
+                <h4>Accede a tu Área Clientes</h4>
+                <p>Elige tu documento</p>
+                <form action="compra.php" method="GET">
+                    <input type="radio" name="boton" value="1">DNI o Tarjeta de residencia<br>
+                    <input type="radio" name="boton" value="2">Pasaporte
+                    <p>Número de documento 
+                        <input type="" name="nombre" size="30" placeholder="XXXXXXXXXXXX">
+                    </p> 
+                    <p>Fecha de nacimiento      
+                        <br>    
+                        <input type="date" name="fecha">
+                    </p> 
+                    <p>
+                        <input type="checkbox" name="casilla"> Recordar
+                    </p>
+                    <p class="bot">
+                        <button type="submit">
+                            <img src="entrar.png" width="100%" height="100%" style="vertical-align: middle">Entrar
+                        </button>
+                    </p>
+                </form>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <div id="form2">
+        <div class="form2">
+            <form action="compra.php" method="GET">
+                <h1>Formulario 2</h1>
+                <h4>Empieza creando tu usuario</h4>
+                <p>
+                    <input type="text" placeholder="Nombre (como sale en el DNI)" size="70">
+                </p>
+                <p>
+                    <input type="text" placeholder="1º apellido (como sale en el DNI)" size="32">
+                    <input type="text" placeholder="2º apellido (como sale en el DNI)" size="32">
+                </p>
+                <p>
+                    <select name="menu">
+                        <option selected>DNI/NIF/CERT.AEAT</option>
+                        <option value="2">...</option>
+                    </select>
+                    <input type="text" max="9" size="32" placeholder="Número de documento">
+                </p>
+                <p>
+                    <input type="tel" name="telefono" size="32" placeholder="España (+34)">
+                    <input type="email" name="correo" size="32" placeholder="email">
+                </p>
+            </form>
+        </div>
+    </div>
+    <hr>
+    <div id="form3">
+        <div class="form3">
+            <form action="compra.php" method="GET">
+                <h1>Formulario 3</h1>
+                <h2>¿Eres nuevo?</h2>
+                <pre>Registrate para guardar tu información y hacer 
+tus pedidos de forma más facil y rapida.</pre>
+                <p>
+                    Email <input type="text" placeholder="Introduce tu email">
+                </p>
+                <p>
+                    Teléfono <input type="text" placeholder="Tu teléfono">
+                </p>
+                <p>
+                    Contraseña<input type="password" placeholder="Introduce tu contraseña">
+                </p>
+                <p>
+                    Contraseña<input type="password" placeholder="Confirma tu contraseña">
+                    
+                </p>
+                <p>
+                    <input class="yo" type="checkbox" name="casilla"> He leído y acepto la Política de privcidad
+                </p>
+                <p>
+                    <input class="yo" type="checkbox"> Sí, acepto recibir comunicaciones comerciales y ofertas personalizadas según mi perfil.
+                </p>
+                <p class="bot">
+                    <button> Crea tu cuenta </button>
+                </p>
+
+            </form>
+        </div>
+    </div>
+</body>
+</html
